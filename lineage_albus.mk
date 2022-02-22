@@ -23,7 +23,7 @@ $(call inherit-product, device/motorola/albus/full_albus.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk) 
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -32,7 +32,7 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := albus
-PRODUCT_NAME := aicp_albus
+PRODUCT_NAME := lineage_albus
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto Z2 Play
 PRODUCT_MANUFACTURER := Motorola
